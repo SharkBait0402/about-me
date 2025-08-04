@@ -1,4 +1,18 @@
-span {
-    font-size: 20px;
-    color: red;
+#gameArea {
+  background: black;
+  width: 80vmin;
+  height: 80vmin;
+  position: relative;
+  margin: 10vmin auto;
+}
+
+#ball {
+  background: red;
+  width: 4%;
+  height: 4%;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 98%;
+  transform: translateX(-50%) translateY(-50%);
 }
