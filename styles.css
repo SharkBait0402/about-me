@@ -53,3 +53,14 @@ body {
 .block:nth-child(n + 13):nth-child(-n+18) {
   background: hotpink;
 }
+
+button {
+    height: 3vmin;
+    width: 8%;
+    position: absolute;
+    top: 92vmin;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: auto;
+}

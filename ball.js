@@ -71,7 +71,7 @@ for(const block of blocks.count) {
 ball.velocityX = -1 * ball.xSpeed // multiply by 1 to so xSpeed can be changed later in the future easier
 ball.velocityY = -1 * ball.ySpeed
 
-log(ball.velocityY);
+//log(ball.velocityY);
 
 function loseGame() {
   window.removeEventListener("pointermove", movePaddle)
@@ -226,7 +226,7 @@ function verticalSpeed() {
     } else if(ball.ySpeed <= 0.5) {
       ball.ySpeed = .5;
     }
-    log(ball.ySpeed, "after y")
+    //log(ball.ySpeed, "after y")
     //log( ( (percentageToEdge - 25) * 2 ) / 100) 
     //game.state=true
     
@@ -258,7 +258,7 @@ function horizontalSpeed() {
     //log( ( ball.xSpeed + ( ball.xSpeed * (( percentageToEdge - 25) * 2) / 100 )) );
     ball.xSpeed = (percentageToEdge * 2) / 100;
     
-    log(ball.xSpeed, "after x")
+    //log(ball.xSpeed, "after x")
     //log( ( (percentageToEdge - 25) * 2 ) / 100) 
     //game.state=true
     
